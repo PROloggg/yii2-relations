@@ -74,6 +74,6 @@ php composer update
 ---------------------------------
 Выбор подключаемых моделей осуществляется через виджет:
 
-<?=\pistol88\relations\widgets\Constructor::widget(['model' => $model]);?>
+```<?=\pistol88\relations\widgets\Constructor::widget(['model' => $model]);?>```
 
 Его необходимо вызвать внутри формы редактирования вашей модели.
